@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(40, 41, 44);
+    color: white;
+}
+
+ol {
+    font-size:25px;
+    font-weight: bold;
+    border-right: 1px solid whitesmoke;
+    margin: 0;
+    margin-left: 50px;
+    padding-top: 70px;
+    padding-right: 200px;
+}
+
+table {
+    width: 75%; /* 테이블에만 너비 조정 효과 (table이 부모태그이기에) */ 
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 35px;
+    margin: 0;
+
+}
+
+h5 {
+    margin: 5;
+    text-align: end;
+}
+
+ul {
+    font-size: 30px;
+    font-weight: bold;
+    border-right: 1px solid whitesmoke;
+    width: 150px;
+    margin: 0;
+    padding: 15px;
+
+}
+
+table, th ,td{
+    border: 1px solid; /* table, th, td 태그의 스타일  (모든 태그에 들어가기에 보기에 solid가 2개가 생긴다)*/
+    border-collapse: collapse; /* 표의 테두리와 셀(th, td)의 간격을 제거 겹치는 부분 한 줄로 */
+    padding: 20px; /* 앨리먼트 간격 띄우기 */
+    font-size: 35px;
+    text-align: center; /* 중앙 정렬 */
+    
+}
+
+
+div h2 {
+     padding-left: 270px;
+}
+
+div h3 {
+    font-size: 25px;
+    margin-left: 350px;
+}
+
+div p {
+    font: bold 20px Dotun;
+    text-align: center;
+    margin-top: 85px;
+}
+
+div img {
+    width: 300px;
+    padding: 20px;
+    padding-top: 0;
+}
+
+
+div h4 {
+    padding-left:150px;
+}
+
+div h5 {
+    font-size: 30px;
+    text-align: center;
+}
+
+video{
+    padding: 60px;
+    
+}
+
+
+.red {
+    color: coral;
+}
+
+.green{
+    color: rgb(64, 255, 30);
+}
+
+
+.opacity {
+    opacity: 0.5;
+}
+
+div li {
+    text-align: center;
+}
+
+#line_2 {
+    border-top: 1px solid whitesmoke;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#line_3 {
+    border-top: 1px solid whitesmoke;
+    margin: 0;
+}
+
+#grid { /* 더 알아보기 */
+    display: grid;
+    grid-template-columns: 136px 1fr;
+}
+
+#article {
+    padding-left: 45px;
+    
+}
+
+#article2 {
+    padding-left: 200px;
+}
+
+div .font {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+div .title {
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+dl {
+    font-size:25px;
+    font-weight: bold;
+}
+
+div .end {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    font-size: 15px;
+}

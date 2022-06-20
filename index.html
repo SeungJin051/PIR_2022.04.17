@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIR 모션 인식센서</title>
+    <link rel="stylesheet" href="reportPIR.css">
+</head>
+            <!-- todo img, text 업로드 font style -->
+<body>
+    <!-- 본인의 dothome에 upload (html/pir/reportPRI.html, html에 pir하위 폴더에 만들기)  
+                               (seungjin051.dothome.co.kr/pir/reportPIR.html)
+                                (문서에 활용된 img도 upload)
+        제출기한:2022. 04.14까지 upload
+    -->
+    
+    <h5>img & video from : 임승진</h5>
+    <h1> Report by SeungJin</h1>
+    
+    <!-- -->
+    <div id="grid">
+    <ul>
+        What is PIR?
+    </ul>
+        <div id="article">
+            <h2>About PIR (Price Income Ratio)</h2>
+            <img align="left" src="img/IMG_PIR.jpg" >
+            <img align="right" src="img/1.jpg" >
+            <p> <br> 인체감지센서( PIR센서 : Pyroelectric Infra Red Sensor) <br> <br> 일정한 적외선을 띄며 움직이는 물체가 감지되면 HIGH 신호를 아니면 LOW 신호를 출력합니다.
+
+                <br> ex)현관이나 엘리베이터 입구에서 사람이 접근하면 자동으로 불이 켜지는 전등. <br> <br> 흰색 구형의 기능은 센서  표면에 적외선을 모아주며 적외선 감지 범위를 확대한다.
+            </p>
+        </div>
+    </div>
+    <!-- -->
+    <!-- -->
+    <div id="grid">
+        <ul>
+            About PIR Delay, Distance
+        </ul>
+        
+            <div id="article">  
+                <h2 id="line_2" > About (Delay, Distance)</h2>
+                <img align="left" src="img/IMG_2108.jpg" >  
+                <img align="right" src="img/IMG_2108 복사본.jpg" >    
+                <p>
+                    <span class="red" >지연 시간조절 가변저항 (Delay Time Adjust)</span>
+                     <br> 인체 감지 후 감지된 상태를 얼마간 유지할 것인가 하는 시간을 조절한다. <br> 시계방향으로 돌릴 수록 지속시간이 길어진다. <br> 반시계방향은 지속시간이 짧아진다.  <br> <br> 
+                    <span class="green">센서 감도조절 가변저항 (Distance Adjust)</span> <br> 시계방향으로 돌리면 민감도가 낮춰져서 감지거리가 줄어든다. 
+                </p>
+                 
+                
+            </div>
+        </div>
+    <!-- -->
+    <!-- -->
+    <div id="grid">
+        <ul>
+            About PIR Jumper
+        </ul>
+            <div id="article">
+                <h2 id="line_2" > About (Jumper)</h2>
+                <img align="left" src="img/IMG_2110.jpg" >
+                <img align="right" src="img/IMG_2119.jpg" >    
+                <p>
+                    <span class="red">Single trigger L: 동작을 감지 하자마자 출력하며 출력 중에는 동작감지가 차단된다.</span>  <br>
+                    [움직임이 검출되면 HIGH 출력 후 n초간 LOW 출력 후 과정 반복] <br> <br>
+                    <span class="green">Repeat H: 동작이 감지될 때마다 딜레이가 초기화 된다.</span> <br>
+                    [물체가 움직이면 HIGH 물체가 센서를 떠나면 LOW]
+                </p>
+            </div>
+        </div>
+    <!-- -->
+    <!-- -->
+         <div>
+            <h2 id="line_3" ></h2>
+        </div>
+    <!-- -->
+    <!-- -->       
+    <span id="grid">
+        <ol>
+            More Distance 
+        </ol>
+            <div id="article2">
+                <h3>감도조절 (Distance Adjust)</h3> <h6>Delay Time 측정 생략 [시계방향 = 짧은시간] , [반시계방향 = 긴시간</h6>
+                <img align="right" s >
+                <table>   
+                    <thead> 
+                        <tr>
+                            <th class="opacity">가변저항</th>
+                            <th class="opacity">값</th>
+                            <th class="opacity">민감도</th>
+                            <th class="opacity">거리</th>
+                        </tr>
+                    </thead>
+                    <tbody>     
+                        <tr>
+                            <td>Distance</td>
+                            <td>최고</td>
+                            <td>높음</td>
+                            <td>먼거리</td>
+                        </tr>
+            
+                        <tr>    
+                            <td>Distance</td>
+                            <td>최저</td>
+                            <td>낮음</td>
+                            <td>가까운거리</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </span>
+    <!-- -->
+    <!-- -->       
+        <span id="grid">
+            <ol>
+            </ol>
+                <div id="article2">
+                    <h3></h3>
+                    <h2></h2>
+                </div>
+            </span>
+    <!-- -->
+    <!-- -->       
+        <div>
+                <h2 id="line_3" ></h2>
+        </div>
+    <!-- -->
+    <!-- -->       
+        <div >
+                <h5>Test Video</h5>
+            <video poster="img/2.jpg" controls width="20%" src="video/IMG_2135.MOV.mp4"></video>
+            <video poster="img/3.jpg" controls width="20%" src="video/IMG_2123.MOV.mp4"></video>
+            <video poster="img/4.jpg" controls width="20%" src="video/IMG_L.MOV.mp4"></video>
+            <video poster="img/5.jpg" controls width="20%" src="video/IMG_H.MOV.mp4"></video>
+        </div>
+<hr>
+        <div>
+            <dl class="title">Test Result</dl>
+            <dl class="font">거리단자 값을 최대, 민감도 높음 = 측정거리가 늘어나서 손을 대지 않아도 모션이 출력이 된다.</dl>
+            <dl class="font">거리단자 값을 최저, 민감도 낮음 = 측정거리가 줄어서 가까이에서 모션을 줘야 출력이 된다.</dl>
+            <dl class="font">Single trigger L = 모션을 감지 하자마자 출력이되며 출력중에는 동작감지가 차단됨을 확인했다.</dl>
+            <dl class="font">Repeat H = 물체가 움직이면 출력이되며 물체가 센서를 떠나면 LOW가 출력이 된다. </dl>
+<hr>
+            <dl class="end">Thank for reading</dl>
+        </div>
+
+        
+</body>
+</html>
